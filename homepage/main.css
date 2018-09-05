@@ -12,15 +12,15 @@
 }
 body {
     font-family: "IBM Plex Mono", serif;
-    color: #b71010;
+    color: black;
     margin: 40px "IBM Plex Mono";
-    background-color: black;
+    background-color: grey;
 }
 h1 {
   font-family: "Chango", serif;
   padding-top: 20px;
   font-size: 500px "Chango";
-  color: #b71010;
+  color: black;
   font-weight: bold;
 }
 
@@ -37,5 +37,5 @@ a:visited {
 }
 /* mouse over link */
 a:hover {
-    color: grey;
+    color: white;
 }
