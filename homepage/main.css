@@ -3,22 +3,23 @@
     padding: 0px;
 }
 @font-face {
-  font-family: 'Abril Fatface';
-  font-style: normal;
+  font-family: 'Chango', sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
-  src: local('Abril-Fatface'), local('Abril-Fatface'), url(https://fonts.googleapis.com/css?family=Abril+Fatface) format('woff2');
+  src: local('Chango'), local('IBM Plex Mono'), url(https://fonts.google.com/?category=Serif,Monospace&selection.family=Chango|IBM+Plex+Mono) format('woff2');
   unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+
 }
 body {
-    font-family: "Abril Fatface", serif;
+    font-family: "IBM Plex Mono", serif;
     color: #b71010;
-    margin: 40px "Abril Fatface";
+    margin: 40px "IBM Plex Mono";
     background-color: black;
 }
 h1 {
-  font-family: "Abril Fatface", serif;
+  font-family: "Chango", serif;
   padding-top: 20px;
-  font-size: 500px "Abril Fatface";
+  font-size: 500px "Chango";
   color: #b71010;
   font-weight: bold;
 }
