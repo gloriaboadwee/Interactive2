@@ -22,7 +22,9 @@ body {
 }
 
 #square {
-	width: 150px;
+
+
+	width: 500px;
 	height: 150px;
 	background: red;
 	top: 203px;
