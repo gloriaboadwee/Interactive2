@@ -8,14 +8,25 @@ body {
 	margin: 100px auto;
 	background: white;
 	position: relative;
+		z-index: -1;
+}
+
+#table {
+	width: 1000px;
+	height: 300px;
+	background: #FBBC88;
+	top: 253px;
+	left: 0px;
+	position: absolute;
+	z-index: -2;
 }
 
 #stem {
-	width: 10px;
-	height: 150px;
+	width: 8px;
+	height: 90px;
 	background: green;
-	top: 100px;
-	left: 100px;
+	top: 90px;
+	left: 350px;
 	position: absolute;
 
 	/* uncomment to add keyframe animation */
@@ -27,7 +38,7 @@ body {
 	width: 500px;
 	height: 150px;
 	background: #F01616;
-	top: 203px;
+	top: 253px;
 	left: 200px;
 	position: absolute;
 
@@ -41,22 +52,60 @@ body {
 	height: 120px;
 	background: #D13D29;
 	border-radius: 150px;
-	top: 130px;
+	top: 180px;
 	left: 300px;
 	position: absolute;
 }
 
-#clip {
-	width: 150px;
-	height: 150px;
-	background: green;
-	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-	top: 203px;
-	left: 690px;
+#orange {
+	width: 50px;
+	height: 50px;
+	background: orange;
+	border-radius: 150px;
+	top: 320px;
+	left: 490px;
 	position: absolute;
+}
 
-	/* uncomment for css transitions */
-	/* transition: all 400ms ease; */
+#crane {
+	width: 100px;
+	height: 100px;
+	background: pink;
+	-webkit-clip-path: polygon(74% 4%, 100% 14%, 84% 16%, 80% 59%, 100% 66%, 51% 90%, 0 74%, 18% 65%, 1% 0, 60% 39%);
+/*clip-path: polygon(74% 4%, 100% 14%, 84% 16%, 80% 59%, 100% 66%, 51% 90%, 0 74%, 18% 65%, 1% 0, 60% 39%)*/
+	top: 260px;
+	left: 590px;
+	position: absolute;
+}
+
+#flowercenter {
+	width: 30px;
+	height: 30px;
+	background: #6E3200;
+	border-radius: 150px;
+	top: 60px;
+	left: 330px;
+	position: absolute;
+}
+
+#clip {
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	-webkit-clip-path: polygon(43% 0, 71% 25%, 100% 35%, 81% 61%, 79% 92%, 49% 85%, 22% 95%, 16% 64%, 0 41%, 25% 25%);
+	top: 30px;
+	left: 300px;
+	position: absolute;
+}
+
+#shadow {
+	width: 120px;
+	height: 140px;
+	background: #850707;
+	-webkit-clip-path: polygon(48% 59%, 97% 53%, 71% 84%, 19% 84%, 4% 49%);
+	top: 190px;
+	left: 300px;
+	position: absolute;
 }
 
 /* animations */
