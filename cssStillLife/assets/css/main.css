@@ -10,25 +10,25 @@ body {
 	position: relative;
 }
 
-#triangle {
-	width: 0;
-	height: 0;
-	border-left: 75px solid transparent;
-	border-right: 75px solid transparent;
-	border-bottom: 150px solid yellow;
+#stem {
+	width: 10px;
+	height: 150px;
+	background: green;
+	top: 100px;
+	left: 100px;
 	position: absolute;
-	top: 203px;
-	left: 60px;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
 }
 
 #square {
-
-
 	width: 500px;
 	height: 150px;
-	background: red;
+	background: #F01616;
 	top: 203px;
-	left: 270px;
+	left: 200px;
 	position: absolute;
 
 	/* uncomment to add keyframe animation */
@@ -37,12 +37,12 @@ body {
 }
 
 #circle {
-	width: 150px;
-	height: 150px;
-	background: blue;
+	width: 120px;
+	height: 120px;
+	background: #D13D29;
 	border-radius: 150px;
-	top: 203px;
-	left: 480px;
+	top: 130px;
+	left: 300px;
 	position: absolute;
 }
 
