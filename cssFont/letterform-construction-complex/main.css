@@ -17,21 +17,14 @@ a {
  color:red;
 }
 
-/* define some letter parts */
-/*
+ /*define some letter parts */
+
 .stem {
   background: var(--color);
   width:var(--stemWidth);
   height: var(--fontHeight);
-}*/
-
-/*.shortline {
-  transform:rotate(-20deg)
 }
 
-.longline {
-  transform:rotate(20deg)
-}*/
 
 .base {
   background: var(--color);
@@ -60,36 +53,7 @@ a {
   /*border: 1px solid yellow;*/
 }
 
-/* positioning parts of letters */
 
-/* A */
-/*.a {
-  width:170px;
-  height:170px;
-}
-.a>.one {
-  left:40px;
-}
-.a>.two {
-  left:110px;
-}
-.a>.three {
-  left: 40px;
-  top: 110px;
-  width: 80px;
-}
-.a>.four {
-  top:-8px;
-  width:170px;
-}
-.a>.five {
-  bottom:14px;
-  width:170px;
-}
-.a>.counter {
-  height: 20px;
-  background: var(--negativeColor);
-}*/
 /* A */
 
 .a {
@@ -103,14 +67,15 @@ a {
   left: 0px;
   top: 0px;
   background: var(--color);
-
   border-radius: 0px 0px 0px 0px;
 }
 
-.a>.line {
-  left: 0px;
-  top: 0px;
-  width: 170px;
+.a>.counter.one {
+  height: 40px;
+  width: 5px;
+  left: 90px;
+  top: 40px;
+  border-radius: 0px 0px 0px 0px;
 }
 
 /* B */
@@ -126,11 +91,8 @@ a {
   left: 0px;
   top: 0px;
   background: var(--color);
-
   border-radius: 0px 0px 0px 0px;
 }
-
-
 
 .b>.counter.three {
   height: 5px;
@@ -158,49 +120,8 @@ a {
 
 /* C */
 
-.c {
-  width:170px;
-  height: 170px;
-}
 
-.c>.top {
-  height: 170px;
-  width: 170px;
-  left: 170px;
-  top: 0px;
-  background: var(--color);
 
-  border-radius: 0px 0px 0px 0px;
-}
-
-/*.c {
-  width: 170px;
-  height: 170px;
-}
-
-.c>.circle {
-  width: 130px;
-  height: 180px;
-  top: 10px;
-  border-radius: 100px;
-  background: radial-gradient(#fff 10% ,#fff 60%);
-}
-
-.c>.counter.two {
-  width: 90px;
-  height: 140px;
-  border-radius: 100px;
-  top: 30px;
-  left: 20px;
-}
-
-.c>.counter.three {
-  height: 80px;
-  background: var(--negativeColor);
-  width: 70px;
-  left: 65px;
-  top: 60px;
-}*/
 
 /* change our stroke width when a letter is hovered */
 
