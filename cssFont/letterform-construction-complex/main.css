@@ -107,6 +107,12 @@ a {
   border-radius: 0px 0px 0px 0px;
 }
 
+.a>.line {
+  left: 0px;
+  top: 0px;
+  width: 170px;
+}
+
 /* B */
 
 .b {
@@ -125,25 +131,32 @@ a {
 }
 
 
-/*
+
 .b>.counter.three {
-  height: 52px;
-  width: 61px;
-  left: 20px;
-  top: 32px;
-  border-radius: 0px 60px 60px 0px;
+  height: 5px;
+  width: 40px;
+  left: 90px;
+  top: 40px;
+  border-radius: 0px 0px 0px 0px;
 }
 
 .b>.counter.four {
-  height: 63px;
-  width: 76px;
-  left: 20px;
-  top: 105px;
-  border-radius: 0px 60px 60px 0px;
-}*/
+  height: 5px;
+  width: 80px;
+  left: 90px;
+  top: 85px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.b>.counter.five {
+  height: 5px;
+  width: 40px;
+  left: 90px;
+  top: 130px;
+  border-radius: 0px 0px 0px 0px;
+}
 
 /* C */
-
 
 .c {
   width:170px;
@@ -153,7 +166,7 @@ a {
 .c>.top {
   height: 170px;
   width: 170px;
-  left: 0px;
+  left: 170px;
   top: 0px;
   background: var(--color);
 
