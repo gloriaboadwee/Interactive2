@@ -360,9 +360,9 @@ a {
 
 .j>.counter.twenty {
   height: 5px;
-  width: 170px;
+  width: 65px;
   left: 0px;
-  top: 40px;
+  top: 100px;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -377,7 +377,7 @@ a {
 .j>.counter.twentytwo {
   height: 60px;
   width: 5px;
-  left: 0px;
+  left: 60px;
   top: 40px;
   border-radius: 0px 0px 0px 0px;
 }
