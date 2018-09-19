@@ -206,6 +206,85 @@ a {
   border-radius: 0px 0px 0px 0px;
 }
 
+/* F */
+
+.f {
+  width:170px;
+  height: 170px;
+}
+
+.f>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 0px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.f>.counter.eleven {
+  height: 80px;
+  width: 5px;
+  left: 90px;
+  top: 45px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.f>.counter.twelve {
+  height:5px;
+  width: 80px;
+  left: 90px;
+  top: 85px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.f>.counter.thirteen {
+  height: 80px;
+  width: 5px;
+  left: 90px;
+  top: 90px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.f>.counter.fourteen {
+  height: 5px;
+  width: 80px;
+  left: 130px;
+  top: 45px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* G */
+
+.g {
+  width:170px;
+  height: 170px;
+}
+
+.g>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 0px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.g>.counter.fifteen {
+  height: 60px;
+  width: 5px;
+  left: 130px;
+  top: 90px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.g>.counter.sixteen {
+  height: 5px;
+  width: 170px;
+  left: 130px;
+  top: 90px;
+  border-radius: 0px 0px 0px 0px;
+}
 /* change our stroke width when a letter is hovered */
 
 
