@@ -9,7 +9,7 @@
 .fontBox {
   background: var(--negativeColor);
   height:var(--fontHeight);
-  padding:50px;
+  padding:10px;
   overflow:hidden;
 }
 
