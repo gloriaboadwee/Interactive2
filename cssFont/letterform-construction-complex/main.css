@@ -71,10 +71,10 @@ a {
 }
 
 .a>.counter.one {
-  height: 80px;
+  height: 85px;
   width: 5px;
-  left: 80px;
-  top: 90px;
+  left: 85px;
+  top: 85px;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -105,15 +105,15 @@ a {
 .b>.counter.three {
   height: 5px;
   width: 40px;
-  left: 90px;
+  left: 85px;
   top: 40px;
   border-radius: 0px 0px 0px 0px;
 }
 
 .b>.counter.four {
   height: 5px;
-  width: 80px;
-  left: 90px;
+  width: 85px;
+  left: 85px;
   top: 85px;
   border-radius: 0px 0px 0px 0px;
 }
@@ -121,7 +121,7 @@ a {
 .b>.counter.five {
   height: 5px;
   width: 40px;
-  left: 90px;
+  left: 85px;
   top: 130px;
   border-radius: 0px 0px 0px 0px;
 }
@@ -144,8 +144,8 @@ a {
 
 .c>.counter.eight {
   height:5px;
-  width: 80px;
-  left: 90px;
+  width: 85px;
+  left: 85px;
   top: 85px;
   border-radius: 0px 0px 0px 0px;
 }
@@ -167,7 +167,7 @@ a {
 }
 
 .d>.counter.nine {
-  height: 80px;
+  height: 85px;
   width: 5px;
   left: 85px;
   top: 45px;
@@ -223,17 +223,17 @@ a {
 }
 
 .f>.counter.eleven {
-  height: 80px;
+  height: 85px;
   width: 5px;
-  left: 90px;
+  left: 85px;
   top: 45px;
   border-radius: 0px 0px 0px 0px;
 }
 
 .f>.counter.twelve {
   height:5px;
-  width: 80px;
-  left: 90px;
+  width: 85px;
+  left: 85px;
   top: 85px;
   border-radius: 0px 0px 0px 0px;
 }
@@ -241,14 +241,14 @@ a {
 .f>.counter.thirteen {
   height: 80px;
   width: 5px;
-  left: 90px;
-  top: 90px;
+  left: 85px;
+  top: 85px;
   border-radius: 0px 0px 0px 0px;
 }
 
 .f>.counter.fourteen {
   height: 5px;
-  width: 80px;
+  width: 85px;
   left: 130px;
   top: 45px;
   border-radius: 0px 0px 0px 0px;
@@ -274,7 +274,7 @@ a {
   height: 60px;
   width: 5px;
   left: 130px;
-  top: 90px;
+  top: 85px;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -282,7 +282,7 @@ a {
   height: 5px;
   width: 170px;
   left: 130px;
-  top: 90px;
+  top: 85px;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -305,7 +305,7 @@ a {
 .h>.counter.seventeen {
   height: 40px;
   width: 5px;
-  left: 80px;
+  left: 85px;
   top: 0px;
   border-radius: 0px 0px 0px 0px;
 }
@@ -313,7 +313,7 @@ a {
 .h>.counter.eighteen {
   height: 40px;
   width: 5px;
-  left: 80px;
+  left: 85px;
   top: 130px;
   border-radius: 0px 0px 0px 0px;
 }
@@ -399,26 +399,90 @@ a {
 }
 
 .k>.counter.twentythree {
-  height: 65px;
+  height: 60px;
   width: 5px;
-  left: 60px;
-  top: 105px;
+  left: 85px;
+  top: 110px;
   border-radius: 0px 0px 0px 0px;
 }
 
 .k>.counter.twentyfour {
   height: 5px;
   width: 60px;
-  left: 100px;
-  top: 40px;
+  left: 120px;
+  top: 85px;
   border-radius: 0px 0px 0px 0px;
 }
 
 .k>.counter.twentyfive {
   height: 60px;
   width: 5px;
-  left: 60px;
+  left: 85px;
   top: 0px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* L */
+
+.l {
+  width:170px;
+  height:170px;
+}
+
+.l>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 0px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.l>.counter.twentysix {
+  height: 130px;
+  width: 5px;
+  left: 85px;
+  top: 0px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.l>.counter.twentyseven {
+  height: 5px;
+  width: 85px;
+  left: 85px;
+  top: 130px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* M */
+
+.m {
+  width:170px;
+  height:170px;
+}
+
+.m>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 0px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.m>.counter.twentyeight {
+  height: 60px;
+  width: 5px;
+  left: 56px;
+  top: 130px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.m>.counter.twentynine {
+  height: 60px;
+  width: 5px;
+  left: 114px;
+  top: 130px;
   border-radius: 0px 0px 0px 0px;
 }
 
