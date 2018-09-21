@@ -9,7 +9,7 @@
 .fontBox {
   background: var(--negativeColor);
   height:var(--fontHeight);
-  padding:10px;
+  padding:15px;
   overflow:hidden;
 }
 
@@ -45,7 +45,7 @@ a {
 }
 
 .letter {
-  height:calc(var(--fontHeight) + 20px);
+  height:calc(var(--fontHeight) + 30px);
 }
 
 .letter * {
@@ -242,7 +242,7 @@ a {
   height: 80px;
   width: 5px;
   left: 85px;
-  top: 85px;
+  top: 90px;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -486,6 +486,445 @@ a {
   border-radius: 0px 0px 0px 0px;
 }
 
+/* N */
+
+.n {
+  width:170px;
+  height:170px;
+}
+
+.n>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 0px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.n>.counter.thirty {
+  height: 60px;
+  width: 5px;
+  left: 56px;
+  top: 130px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.n>.counter.thirtyone {
+  height: 60px;
+  width: 5px;
+  left: 114px;
+  top: 0px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* O */
+
+.o {
+  width:170px;
+  height:170px;
+}
+
+.o>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 20px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.o>.counter.thirtytwo {
+  height: 5px;
+  width: 60px;
+  left: 55px;
+  top: 100px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* P */
+
+.p {
+  width:170px;
+  height:170px;
+}
+
+.p>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 20px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.p>.counter.thirtythree {
+  height: 5px;
+  width: 40px;
+  left: 85px;
+  top: 60px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.p>.counter.thirtyfour {
+  height: 5px;
+  width: 85px;
+  left: 85px;
+  top: 105px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.p>.counter.thirtyfive {
+  height: 85px;
+  width: 5px;
+  left: 85px;
+  top: 105px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* Q */
+
+.q {
+  width:170px;
+  height:170px;
+}
+
+.q>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 20px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.q>.counter.thirtysix {
+  height: 5px;
+  width: 60px;
+  left: 55px;
+  top: 100px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.q>.counter.thirtyseven {
+  height: 40px;
+  width: 5px;
+  left: 114px;
+  top: 150px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* R */
+
+.r {
+  width:170px;
+  height:170px;
+}
+
+.r>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 20px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.r>.counter.thirtyeight {
+  height: 40px;
+  width: 5px;
+  left: 85px;
+  top: 150px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.r>.counter.thirtynine {
+  height: 5px;
+  width: 85px;
+  left: 85px;
+  top: 105px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.r>.counter.forty {
+  height: 5px;
+  width: 40px;
+  left: 85px;
+  top: 60px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* S */
+
+.s {
+  width:170px;
+  height:170px;
+}
+
+.s>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 20px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.s>.counter.fortyone {
+  height:5px;
+  width: 40px;
+  left: 130px;
+  top: 65px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.s>.counter.fortytwo {
+  height: 5px;
+  width: 40px;
+  left: 0px;
+  top: 150px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* T */
+
+.t {
+  width:170px;
+  height:170px;
+}
+
+.t>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 20px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.t>.counter.fortythree {
+  height:5px;
+  width: 40px;
+  left: 130px;
+  top: 65px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.t>.counter.fortyfour {
+  height: 5px;
+  width: 40px;
+  left: 0px;
+  top: 65px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* U */
+
+.u {
+  width:170px;
+  height:170px;
+}
+
+.u>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 20px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.u>.counter.fortyfive {
+  height: 85px;
+  width: 5px;
+  left: 85px;
+  top: 20px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.u>.counter.fortysix {
+  height: 40px;
+  width: 5px;
+  left: 114px;
+  top: 150px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* V */
+
+.v {
+  width:170px;
+  height:170px;
+}
+
+.v>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 20px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.v>.counter.fortyseven {
+  height: 85px;
+  width: 5px;
+  left: 85px;
+  top: 20px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* w */
+
+.w {
+  width:170px;
+  height:170px;
+}
+
+.w>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 40px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.w>.counter.fortyeight {
+  height: 40px;
+  width: 5px;
+  left: 114px;
+  top: 40px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.w>.counter.fortynine {
+  height: 40px;
+  width: 5px;
+  left: 56px;
+  top: 40px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* x */
+
+.x {
+  width:170px;
+  height:170px;
+}
+
+.x>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 40px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.x>.counter.fifty {
+  height: 40px;
+  width: 5px;
+  left: 85px;
+  top: 40px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.x>.counter.fiftyone {
+  height: 40px;
+  width: 5px;
+  left: 85px;
+  top: 170px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.x>.counter.fiftytwo {
+  height: 5px;
+  width: 40px;
+  left: 130px;
+  top: 125px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.x>.counter.fiftythree {
+  height: 5px;
+  width: 40px;
+  left: 0px;
+  top: 125px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* Y */
+
+.y {
+  width:170px;
+  height:170px;
+}
+
+.y>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 40px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.y>.counter.fiftyfour {
+  height: 40px;
+  width: 5px;
+  left: 85px;
+  top: 40px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.y>.counter.fiftyfive {
+  height: 5px;
+  width: 40px;
+  left: 0px;
+  top: 125px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.y>.counter.fiftysix {
+  height: 5px;
+  width: 40px;
+  left: 130px;
+  top: 125px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* Z */
+
+.z {
+  width:170px;
+  height:170px;
+}
+
+.z>.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 40px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.z>.counter.fiftyseven {
+  height:5px;
+  width: 40px;
+  left: 0px;
+  top: 85px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.z>.counter.fiftyeight {
+  height:5px;
+  width: 40px;
+  left: 130px;
+  top: 150px;
+  border-radius: 0px 0px 0px 0px;
+}
 
 /* change our stroke width when a letter is hovered */
 
