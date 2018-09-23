@@ -946,16 +946,312 @@ a {
 .zero >.counter.fiftynine {
   height:5px;
   width: 40px;
+  left: 65px;
+  top: 115px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.zero >.counter.sixty {
+  height:60px;
+  width: 5px;
+  left: 82px;
+  top: 90px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* 1 */
+
+.one {
+  width:170px;
+  height:170px;
+}
+
+.one >.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 40px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* 2 */
+
+.two {
+  width:170px;
+  height:170px;
+}
+
+.two >.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 40px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.two >.counter.sixtyone {
+  height:5px;
+  width: 60px;
   left: 0px;
   top: 85px;
   border-radius: 0px 0px 0px 0px;
 }
 
-.zero >.counter.sixty {
+.two >.counter.sixtytwo {
   height:5px;
+  width: 60px;
+  left: 110px;
+  top: 150px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* 3 */
+
+.three {
+  width:170px;
+  height:170px;
+}
+
+.three >.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 40px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.three >.counter.sixtythree {
+  height: 5px;
   width: 40px;
-  left: 130px;
+  left: 0px;
   top: 85px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.three >.counter.sixtyfour {
+  height: 5px;
+  width: 40px;
+  left: 0px;
+  top: 170px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* 4 */
+
+.four {
+  width:170px;
+  height:170px;
+}
+
+.four >.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 60px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.four >.counter.sixtyfive {
+  height: 40px;
+  width: 5px;
+  left: 85px;
+  top: 60px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.four >.counter.sixtysix {
+  height: 80px;
+  width: 5px;
+  left: 85px;
+  top: 150px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.four >.counter.sixtyseven {
+  height: 5px;
+  width: 85px;
+  left: 0px;
+  top: 150px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* 5 */
+
+.five {
+  width:170px;
+  height:170px;
+}
+
+.five >.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 60px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.five >.counter.sixtyeight {
+  height:5px;
+  width: 60px;
+  left: 110px;
+  top: 105px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.five >.counter.sixtynine {
+  height: 5px;
+  width: 60px;
+  left: 0px;
+  top: 190px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* 6 */
+
+.six {
+  width:170px;
+  height:170px;
+}
+
+.six >.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 60px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.six >.counter.seventy {
+  height: 5px;
+  width: 40px;
+  left: 85px;
+  top: 190px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.six >.counter.seventyone {
+  height: 5px;
+  width: 85px;
+  left: 85px;
+  top: 145px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.six >.counter.seventytwo {
+  height: 85px;
+  width: 5px;
+  left: 85px;
+  top: 60px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* 7 */
+
+.seven {
+  width:170px;
+  height:170px;
+}
+
+.seven >.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 60px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.seven >.counter.seventythree {
+  height: 80px;
+  width: 5px;
+  left: 85px;
+  top: 150px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.seven >.counter.seventyfour {
+  height: 5px;
+  width: 85px;
+  left: 0px;
+  top: 150px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* 8 */
+
+.eight {
+  width:170px;
+  height:170px;
+}
+
+.eight >.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 60px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.eight >.counter.seventyfive {
+  height: 5px;
+  width: 40px;
+  left: 70px;
+  top: 100px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.eight >.counter.seventysix {
+  height: 5px;
+  width: 40px;
+  left: 70px;
+  top: 190px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* 9 */
+
+.nine {
+  width:170px;
+  height:170px;
+}
+
+.nine >.top {
+  height: 170px;
+  width: 170px;
+  left: 0px;
+  top: 60px;
+  background: var(--color);
+  border-radius: 0px 0px 0px 0px;
+}
+
+.nine >.counter.seventyseven {
+  height: 5px;
+  width: 40px;
+  left: 50px;
+  top: 100px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.nine >.counter.seventyeight {
+  height: 5px;
+  width: 85px;
+  left: 0px;
+  top: 145px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.nine >.counter.seventynine {
+  height: 85px;
+  width: 5px;
+  left: 85px;
+  top: 145px;
   border-radius: 0px 0px 0px 0px;
 }
 
