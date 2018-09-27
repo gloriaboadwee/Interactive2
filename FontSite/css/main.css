@@ -1,6 +1,5 @@
 :root {
   --fontHeight: 200px;
-  --color: black;
   --negativeColor: white;
   --baseKern: 20px;
   --stemWidth: 20px;
@@ -66,7 +65,7 @@ a {
   width: 170px;
   left: 0px;
   top: 0px;
-  background: var(--color);
+  background: #FF5733;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -98,7 +97,7 @@ a {
   width: 170px;
   left: 0px;
   top: 0px;
-  background: var(--color);
+  background: black;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -138,7 +137,7 @@ a {
   width: 170px;
   left: 0px;
   top: 0px;
-  background: var(--color);
+  background: green;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -162,7 +161,7 @@ a {
   width: 170px;
   left: 0px;
   top: 0px;
-  background: var(--color);
+  background: yellow;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -186,7 +185,7 @@ a {
   width: 170px;
   left: 0px;
   top: 0px;
-  background: var(--color);
+  background: lavender;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -218,7 +217,7 @@ a {
   width: 170px;
   left: 0px;
   top: 0px;
-  background: var(--color);
+  background: #33FFF9;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -266,7 +265,7 @@ a {
   width: 170px;
   left: 0px;
   top: 0px;
-  background: var(--color);
+  background: #FF33E0;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -298,7 +297,7 @@ a {
   width: 170px;
   left: 0px;
   top: 0px;
-  background: var(--color);
+  background: #36FF33;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -330,7 +329,7 @@ a {
   width: 170px;
   left: 0px;
   top: 0px;
-  background: var(--color);
+  background: #FFC300;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -354,7 +353,7 @@ a {
   width: 170px;
   left: 0px;
   top: 0px;
-  background: var(--color);
+  background: #09A06B;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -394,7 +393,7 @@ a {
   width: 170px;
   left: 0px;
   top: 0px;
-  background: var(--color);
+  background: #064379;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -434,7 +433,7 @@ a {
   width: 170px;
   left: 0px;
   top: 0px;
-  background: var(--color);
+  background: #610679;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -466,7 +465,7 @@ a {
   width: 170px;
   left: 0px;
   top: 0px;
-  background: var(--color);
+  background: #CA00FF;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -498,7 +497,7 @@ a {
   width: 170px;
   left: 0px;
   top: 0px;
-  background: var(--color);
+  background: #FF009B;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -530,7 +529,7 @@ a {
   width: 170px;
   left: 0px;
   top: 20px;
-  background: var(--color);
+  background: #FF5900;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -554,7 +553,7 @@ a {
   width: 170px;
   left: 0px;
   top: 20px;
-  background: var(--color);
+  background: #99F1F1;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -594,7 +593,7 @@ a {
   width: 170px;
   left: 0px;
   top: 20px;
-  background: var(--color);
+  background: #B6B6B6;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -626,7 +625,7 @@ a {
   width: 170px;
   left: 0px;
   top: 20px;
-  background: var(--color);
+  background: #686868;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -666,7 +665,7 @@ a {
   width: 170px;
   left: 0px;
   top: 20px;
-  background: var(--color);
+  background: #FF0000;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -698,7 +697,7 @@ a {
   width: 170px;
   left: 0px;
   top: 20px;
-  background: var(--color);
+  background: #830000;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -730,7 +729,7 @@ a {
   width: 170px;
   left: 0px;
   top: 20px;
-  background: var(--color);
+  background: #C7D2ED;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -762,7 +761,7 @@ a {
   width: 170px;
   left: 0px;
   top: 20px;
-  background: var(--color);
+  background: #C4F1CF;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -786,7 +785,7 @@ a {
   width: 170px;
   left: 0px;
   top: 40px;
-  background: var(--color);
+  background: #F1E5C4;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -818,7 +817,7 @@ a {
   width: 170px;
   left: 0px;
   top: 40px;
-  background: var(--color);
+  background: brown;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -866,7 +865,7 @@ a {
   width: 170px;
   left: 0px;
   top: 40px;
-  background: var(--color);
+  background: #9D5E17;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -906,7 +905,7 @@ a {
   width: 170px;
   left: 0px;
   top: 40px;
-  background: var(--color);
+  background: #B57F4F;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -938,7 +937,7 @@ a {
   width: 170px;
   left: 0px;
   top: 40px;
-  background: var(--color);
+  background: #AD2626;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -970,7 +969,7 @@ a {
   width: 170px;
   left: 0px;
   top: 40px;
-  background: var(--color);
+  background: #778C6D;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -986,7 +985,7 @@ a {
   width: 170px;
   left: 0px;
   top: 40px;
-  background: var(--color);
+  background: #009CFF;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -1018,7 +1017,7 @@ a {
   width: 170px;
   left: 0px;
   top: 40px;
-  background: var(--color);
+  background: #7577FF;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -1050,7 +1049,7 @@ a {
   width: 170px;
   left: 0px;
   top: 60px;
-  background: var(--color);
+  background: #204934;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -1090,7 +1089,7 @@ a {
   width: 170px;
   left: 0px;
   top: 60px;
-  background: var(--color);
+  background: #6B5B4A;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -1122,7 +1121,7 @@ a {
   width: 170px;
   left: 0px;
   top: 60px;
-  background: var(--color);
+  background: #FFCECE;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -1162,7 +1161,7 @@ a {
   width: 170px;
   left: 0px;
   top: 60px;
-  background: var(--color);
+  background: #DEFFB5;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -1194,7 +1193,7 @@ a {
   width: 170px;
   left: 0px;
   top: 60px;
-  background: var(--color);
+  background: #BEB5FF;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -1226,7 +1225,7 @@ a {
   width: 170px;
   left: 0px;
   top: 60px;
-  background: var(--color);
+  background: #4B59A5;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -1266,7 +1265,7 @@ a {
   width: 40px;
   left: 0px;
   top: 60px;
-  background: var(--color);
+  background: black;
   border-radius: 0px 0px 0px 0px;
 }
 .period >.counter.eighty {
@@ -1289,7 +1288,7 @@ a {
   width: 40px;
   left: 0px;
   top: 60px;
-  background: var(--color);
+  background: black;
   border-radius: 0px 0px 0px 0px;
 }
 .ex >.counter.eightyone {
@@ -1312,7 +1311,7 @@ a {
   width: 80px;
   left: 0px;
   top: 60px;
-  background: var(--color);
+  background: black;
   border-radius: 0px 0px 0px 0px;
 }
 .qu >.counter.eightytwo {
@@ -1343,7 +1342,7 @@ a {
   width: 40px;
   left: 0px;
   top: 60px;
-  background: var(--color);
+  background: black;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -1375,7 +1374,7 @@ a {
   width: 80px;
   left: 0px;
   top: 80px;
-  background: var(--color);
+  background: black;
   border-radius: 0px 0px 0px 0px;
 }
 
