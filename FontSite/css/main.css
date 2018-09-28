@@ -1,22 +1,70 @@
 :root {
   --fontHeight: 200px;
+  --fontWidth: 200px;
   --negativeColor: white;
   --baseKern: 20px;
   --stemWidth: 20px;
 }
 
+
+#draggable {
+}
+
+
+
 .fontBox {
   background: var(--negativeColor);
   height:var(--fontHeight);
-  padding:15px;
-  overflow:hidden;
+  height:var(--fontWidth);
+  padding:10px;
+  /*overflow:hidden;*/
+}
+/*
+#a {
+  width: 200px;
+  position: relative;
 }
 
-a {
- color:red;
+#b {
+  width: 200px;
+  position: relative;
 }
 
- /*define some letter parts */
+#c {
+  width: 200px;
+  position: relative;
+}
+#d {
+  width: 200px;
+  position: relative;
+}
+#e {
+  width: 200px;
+  position: relative;
+}
+#f {
+  width: 200px;
+  position: relative;
+}
+#g {
+  width: 200px;
+  position: relative;
+}
+#h {
+  width: 200px;
+  position: relative;
+}
+#i {
+  width: 200px;
+  position: relative;
+}
+#j {
+  width: 200px;
+  position: relative;
+}*/
+
+
+
 
 .stem {
   background: var(--color);
@@ -36,21 +84,22 @@ a {
 }
 
 
-/* setup so our letters have equal spacing */
+
 .rootLetter {
   float:left;
   position:relative;
-  padding-right:var(--baseKern);
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .letter {
-  height:calc(var(--fontHeight) + 30px);
+  height:calc(var(--fontHeight) + 0px);
 }
 
 .letter * {
   position:absolute;
 }
-
 
 
 /* A */
