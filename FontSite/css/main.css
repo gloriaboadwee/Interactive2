@@ -8,8 +8,11 @@
 
 
 #draggable {
-}
 
+}
+#left {
+  float: left;
+}
 
 
 .fontBox {
@@ -91,6 +94,7 @@
   padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 10px;
+
 }
 
 .letter {
@@ -986,7 +990,7 @@
   width: 170px;
   left: 0px;
   top: 40px;
-  background: #AD2626;
+  background: #3333ff;
   border-radius: 0px 0px 0px 0px;
 }
 
