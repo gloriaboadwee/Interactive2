@@ -7,9 +7,17 @@ $(document).ready(function(){
 
 	// Couldn't figure out a way to use the coordinates
 	// that jQuery also stores, so let's record our own.
+
+
+
+
+function alert() {
+    alert("Draw with the type");
+}
+
 	var click = {
-	    x: 0,
-	    y: 0
+	    x: 0;
+	    y: 0;
 	};
 
 	$('.draggable').draggable({
@@ -37,7 +45,7 @@ $(document).ready(function(){
 	});
 
     $('.draggable').click(function(){
-      $(this).clone().prependTo('.container');
+      $(this).clone().prependTo(this).parent();
     });
 
 });

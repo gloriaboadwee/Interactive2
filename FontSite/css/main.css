@@ -10,6 +10,12 @@ body {
   align: "left";
 }
 
+button {
+  transform: scale(10);
+  left: 100px;
+  top: 1500px;
+  position:relative;
+}
 
 
 #draggable {
@@ -1441,6 +1447,19 @@ body {
   border-radius: 0px 0px 0px 0px;
 }
 
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+}
+/* mouse over link */
+a:hover {
+    color: white;
+}
 
 /* change our stroke width when a letter is hovered */
 
