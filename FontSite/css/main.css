@@ -6,13 +6,16 @@
   --stemWidth: 20px;
 }
 
+body {
+  align: "left";
+}
+
+
 
 #draggable {
 
 }
-#left {
-  float: left;
-}
+
 
 
 .fontBox {
@@ -20,6 +23,7 @@
   height:var(--fontHeight);
   height:var(--fontWidth);
   padding:10px;
+
   /*overflow:hidden;*/
 }
 /*
@@ -65,8 +69,6 @@
   width: 200px;
   position: relative;
 }*/
-
-
 
 
 .stem {

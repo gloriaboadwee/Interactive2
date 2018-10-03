@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     // store code for your letters in variables
 
@@ -38,7 +37,7 @@ $(document).ready(function(){
 	});
 
     $('.draggable').click(function(){
-      $(this).clone().prependTo(this).parent();
+      $(this).clone().prependTo('.container');
     });
 
 });
