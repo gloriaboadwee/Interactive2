@@ -8,6 +8,8 @@
 
 body {
   align: "left";
+  width:1200px;
+  height: 800px
 }
 
 button {
@@ -28,7 +30,7 @@ button {
   background: var(--negativeColor);
   height:var(--fontHeight);
   height:var(--fontWidth);
-  padding:10px;
+  padding:20px;
 
   /*overflow:hidden;*/
 }
