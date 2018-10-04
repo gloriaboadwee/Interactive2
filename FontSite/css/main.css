@@ -19,6 +19,17 @@ button {
   position:relative;
 }
 
+.alphabetlink {
+  font-size: 36px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.alphabetlink > a{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
 
 #draggable {
 

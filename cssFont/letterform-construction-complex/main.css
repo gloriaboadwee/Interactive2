@@ -6,21 +6,11 @@
   --stemWidth: 20px;
 }
 
-.alphabetlink {
-  font-size: 36px;
-  padding-bottom: 10px;
-  position: relative;
-}
 
-.alphabetlink > a{
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-}
 
 .fontBox {
   background: var(--negativeColor);
-  height:var(--fontHeight);
+
   padding:15px;
   overflow:hidden;
 }
