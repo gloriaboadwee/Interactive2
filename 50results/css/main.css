@@ -18,8 +18,8 @@ body {
 .item {
 	height: 250px;
 	width: 250px;
-	background: red;
-	color: orange;
+	background: black;
+	color: white;
 	margin: 10px;
 	padding: 10px;
 	box-sizing: border-box;
@@ -29,45 +29,204 @@ body {
 	cursor: pointer;
 }
 
-/* example button 1 */
 
 #button-1:hover {
-	transform: rotate(90deg) scale(1.5);
+	transform: scale(5);
 	opacity: .3;
 }
 
 #button-1:active {
-	background: pink;
+	background: black;
 	opacity: 1;
 }
 
-/* example button 2 */
 
-#button-2::after {
-	content: 'this is added after the content inside the button';
-	color: white;
+#button-2:hover {
+	background: red;
+	transform: scaleY(1.5);
 }
 
 
 #button-2:hover::after {
-	content: 'this text changes on hover';
-	color: red;
+	transform: translate(50px, 100px);
 }
 
-/* example button 3 is changed only via js */
 
-/* example button 4 */
+/*  button 4 */
 #button-4.gradient-background {
-	background: linear-gradient(blue, pink);
+	background: radial-gradient(grey, red);
 	color: transparent;
+	border: 5px solid black;
 }
 
-/* example button 5 */
+/* button 5 */
 .circle {
 	border-radius: 125px;
+	background: none;
 }
 
-/* example button 6 */
-#button-6{
-	transition: none;
+.triangle {
+width: 0;
+height: 0;
+border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+border-bottom: 50px solid #555;
+
 }
+
+#button-6:active{
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#button-8:hover {
+	transform: rotate(2000deg) scale(.5);
+	opacity: .9;
+}
+
+#button-9:hover {
+	transform: skewY(20deg);
+}
+
+#button-10:hover {
+	border-left: 25px solid grey;
+	border-top: 25px solid grey;
+	transform: translate(20px, 10px);
+}
+
+#button-11:hover {
+	transform: scale(2, .5);
+}
+
+#button-12:hover {
+	transform: scaleX(2);
+	transform: scaleY(.5);
+}
+
+#button-13:hover {background-color: black}
+
+#button-13:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+#button-14,
+#button-14:before,
+#button-14:after {
+  background-color: black;
+  color: #fff;
+  position: relative;
+  box-shadow: red;
+}
+
+#button-14:before,
+#button-14:after {
+  position: absolute;
+  content: attr(data-title);
+  z-index: -1;
+}
+
+#button-14:before {
+  top: -0.1em;
+  right: -0.1em;
+  background-color: red;
+}
+
+#button-14:after {
+  bottom: -0.1em;
+  left: -0.1em;
+  background-color: red;
+}
+
+#button-14:hover {
+  background-color: red;
+  box-shadow: 0.05em 0.05em 0.1em grey;
+}
+
+#button-14:hover:before {
+  top: 0;
+  right: 0;
+}
+#button-14:hover:after {
+  bottom: 0;
+  left: 0;
+}
+#button-14:active {
+background-color: maroon;
+}
+
+
+#button-15 {
+	transform: perspective(500px) rotateY(-15deg);
+	transition: 0.5s;
+}
+
+#button-15:hover {
+	transform: perspective(500px) rotateY(15deg);
+	background: linear-gradient(to right, gold, darkorange);
+	color: white;
+}
+
+
+#button-16:after {
+ background-color:black;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+#button-16:hover {
+  background-image: linear-gradient(90deg, red 0%, grey 49%, black 80%, yellow 100%);
+	 animation:slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+ to {
+	 background-position:20vw;
+ }
+}
+
+#button-17:active {
+background-color: blue;
+cursor:not-allowed;
+}
+
+#button-18:active {
+background-color: white;
+cursor: help
+}
+
+
+#button-20:active {
+    background: yellow;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 50;
+    transition: all 0.9s
+}
+
+#button-21:active {
+	border:5px solid black;
+    background-color: white;
+
+	}
+
+	#button-22:hover {
+	    background-color: white;
+	}}
+
+	#button-23:active {
+			background-color: red;
+	}}
+
+	#button-24:hover {
+			background-color: green;
+	}}
+
+	#button-25:hover {
+background-color: #3e8e41;
+
+	}}
