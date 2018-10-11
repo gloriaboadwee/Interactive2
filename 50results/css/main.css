@@ -231,10 +231,16 @@ cursor: help
 	}
 
 	#button-23:active {
-			background-color: red;
-
 			transform: translateY(20px);
 			transition: none;
+
+    position: absolute;
+    width: 23%;
+    height: 300px;
+    top: 340px;
+    left: 75%;
+    background-color: red;
+    opacity: .1;
 
 	}
 
