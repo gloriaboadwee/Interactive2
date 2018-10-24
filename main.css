@@ -1,0 +1,61 @@
+.square {
+  position: absolute;
+  left: -200px;
+  top: -100px;
+  height: 4000px;
+  width: 4000px;
+  background-image: radial-gradient(ellipse at center, #ed1c24 0%, #00a651 20%, #00aeef 51%, #f9ed32 80%, #f15a29 90%, #ed1c24 100%);
+
+  animation: slidebg 60s linear infinite;
+  /* animation-play-state: paused; */
+}
+
+#gradient:hover {
+  /*background-image: linear-gradient (90deg, red 0%, grey 49%, black 80%, yellow 100%);*/
+  animation: slidebg 60s linear infinite;
+}
+
+#white {
+  position: absolute;
+  left: -200px;
+  top: -100px;
+  height: 4000px;
+  width: 4000px;
+  background-color: white;
+  opacity: 1;
+  text
+}
+
+#white:hover {
+  position: absolute;
+  left: -200px;
+  top: -100px;
+  height: 4000px;
+  width: 4000px;
+  background-color: white;
+  opacity: 0;
+}
+
+
+
+@keyframes slidebg {
+  0% {
+    background-position:1000vw;
+  }
+
+  10% {
+     background-position:800vw;
+   }
+
+  20% {
+     background-position:500vw;
+   }
+
+ 50% {
+    background-position:200vw;
+  }
+
+  100% {
+    background-position:100vw;
+  }
+}
