@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 var imgArray = new Array();
 imgArray[0] = "https://cdn.glitch.com/b155fbce-d59c-4cab-a876-f3d3a5b3edf8%2FGrapus%2C%20AIDS-%20A%20Worldwide%20Effort%20Will%20Stop%20It%2C%201989%20copy.jpeg?1542243219066";
 imgArray[1] = "https://cdn.glitch.com/b155fbce-d59c-4cab-a876-f3d3a5b3edf8%2FGuerrilla%20Girls%2C%20You%E2%80%99re%20Seeing%20Less%20Than%20Half%20the%20Picture%2C%201989%20copy.jpeg?1542243219194";
@@ -33,41 +35,42 @@ function imgrandom() {
     var imgs = document.getElementById('images');
 
     // remove all child nodes
-    while (imgs.hasChildNodes()) { 
-      imgs.removeChild(imgs.lastChild); 
-    } 
-  
+    while (imgs.hasChildNodes()) {
+      imgs.removeChild(imgs.lastChild);
+    }
+
     // define captions div
     var caps = document.getElementById('captions');
 
     // remove all child nodes
-    while (caps.hasChildNodes()) { 
-      caps.removeChild(caps.lastChild); 
-    }   
-  
+    while (caps.hasChildNodes()) {
+      caps.removeChild(caps.lastChild);
+    }
+
     for (var i = 0; i < 3; i++) {
         // store a random number each time in the loop
         var rand = Math.floor(Math.random() * imgArray.length);
         var image = new Image();
-        
+
         //get the item from the image array
         image.src = imgArray[rand];
-      
+
         // add image
         imgs.appendChild(image);
-        
+
         //create a paragraph
         var paragraph = document.createElement('h3');
-        
+
         // get the corresponding item from the text array
         var cap = document.createTextNode(capArray[rand]);
-      
+
         //add caption text to a paragraph
-        paragraph.appendChild(cap);   
-      
+        paragraph.appendChild(cap);
+
         //add caption
         caps.appendChild(paragraph);
 
 
     }
 }
+});
